@@ -1,0 +1,95 @@
+/* Element Rules */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-left: 10px;
+
+}
+
+a {
+	text-decoration: none;
+	color: rgba(0,0,0,0.87);
+	font-size: 13px;
+}
+
+img, input, .buttons, .left, .right {
+	display: inline-block; 
+
+}
+
+button {
+	background-color:  rgb(242, 242, 242);
+	border: 1px solid rgb(242, 242, 242);
+	margin:0 2px;
+	padding: 8px 16px;
+	height: 34px;
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+button:hover {
+	border: 1px solid #c6c6c6;
+	color: #222;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+
+/* General Class Rules */
+
+.left {
+	
+}
+
+.right {
+	
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/* DIV Class Rules */
+
+.top-toolbar{
+	height: 30px;
+}
+
+.logo {
+	margin-top: 150px;
+}
+
+.searchbar, .buttons {
+	margin: 15px auto;
+}
+
+.language {
+	margin: 15px auto 150px auto;
+}
+
+.bottom-toolbar, .country {
+	background-color:  rgb(242, 242, 242);
+	border: 1px solid #e4e4e4;
+	height: 41px;
+	color: rgba(0,0,0,.54);
+	padding: 10px 20px;
+}
+
+.bottom-toolbar a {
+	color: rgba(0,0,0,.54);
+	margin: 0 12px;
+}
