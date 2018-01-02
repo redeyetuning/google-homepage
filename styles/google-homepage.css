@@ -7,6 +7,13 @@
 	font-family: arial;
 }
 
+header {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+
 h3 {
 	font-size: 15px;
 	font-weight: normal;
@@ -18,11 +25,31 @@ a {
 	text-decoration: none;
 	color: rgba(0,0,0,0.87);
 	font-size: 13px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin: 0 8px;
 }
 
+a:hover {
+	text-decoration: underline;
+}
 img, input, .buttons, .left, .right {
 	display: inline-block; 
 
+}
+
+input {
+	min-width: 300px;
+	width: 40%;
+	height: 44px;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input:hover {
+	border: 1px solid #c6c6c6;
+	color: #222;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 button {
@@ -45,17 +72,10 @@ footer {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
+	color: #666
 }
 
 /* General Class Rules */
-
-.left {
-	
-}
-
-.right {
-	
-}
 
 .center {
 	margin-left: auto;
@@ -66,14 +86,19 @@ footer {
 /* DIV Class Rules */
 
 .top-toolbar{
-	height: 30px;
+	
 }
 
 .logo {
-	margin-top: 150px;
+	margin-top: 200px;
+	margin-bottom: 0px;
 }
 
-.searchbar, .buttons {
+.searchbar {
+	margin: 20px auto 15px auto;
+}
+
+.buttons {
 	margin: 15px auto;
 }
 
@@ -89,7 +114,17 @@ footer {
 	padding: 10px 20px;
 }
 
+.bottom-toolbar-left {
+	position:absolute;
+	left: 20px;
+}
+
+.bottom-toolbar-right {
+	position:absolute;
+	right: 20px;
+}
+
 .bottom-toolbar a {
-	color: rgba(0,0,0,.54);
-	margin: 0 12px;
+	color: #666;
+	margin: 0 12px;	
 }
