@@ -7,13 +7,6 @@
 	font-family: arial;
 }
 
-header {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-}
-
-
 h3 {
 	font-size: 15px;
 	font-weight: normal;
@@ -33,6 +26,7 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+
 img, input, .buttons, .left, .right {
 	display: inline-block; 
 
@@ -68,6 +62,10 @@ button:hover {
 	color: #222;
 }
 
+body{
+	clear:left;
+}
+
 footer {
 	position: absolute;
 	bottom: 0px;
@@ -85,26 +83,47 @@ footer {
 
 /* DIV Class Rules */
 
-.top-toolbar{
-	
+.social{
+	margin-top: 10px;
+	height: 30px;
+	color: #666
 }
+
+	.social-icon{
+		float: right;
+		height: 30px;
+		width: 30px;
+		border-radius: 30px;
+		margin:5px 16px 0 5px;
+		padding-left: 3px;
+		padding-top: 2px;
+	}
+
+	.social-links{
+		float: right;
+		padding-top: 9px;
+		padding-right: 3px;
+	}
 
 .logo {
 	margin-top: 200px;
 	margin-bottom: 0px;
 }
 
-.searchbar {
-	margin: 20px auto 15px auto;
+.search{
 }
 
-.buttons {
-	margin: 15px auto;
-}
+	.searchbar {
+		margin: 20px auto 15px auto;
+	}
 
-.language {
-	margin: 15px auto 150px auto;
-}
+	.buttons {
+		margin: 15px auto;
+	}
+
+	.language {
+		margin: 15px auto 150px auto;
+	}
 
 .bottom-toolbar, .country {
 	background-color:  rgb(242, 242, 242);
@@ -114,17 +133,17 @@ footer {
 	padding: 10px 20px;
 }
 
-.bottom-toolbar-left {
-	position:absolute;
-	left: 20px;
-}
+	.bottom-toolbar-left {
+		position:absolute;
+		left: 20px;
+	}
 
-.bottom-toolbar-right {
-	position:absolute;
-	right: 20px;
-}
+	.bottom-toolbar-right {
+		position:absolute;
+		right: 20px;
+	}
 
-.bottom-toolbar a {
-	color: #666;
-	margin: 0 12px;	
-}
+	.bottom-toolbar a {
+		color: #666;
+		margin: 0 12px;	
+	}
